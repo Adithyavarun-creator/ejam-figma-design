@@ -78,9 +78,6 @@ export const HeaderStyles = styled.div`
     }
   }
 
-  @media ${devices.smallMobiles} {
-    display: none;
-  }
   @media ${devices.bigLaptopsAndDesktops} {
     display: none;
   }

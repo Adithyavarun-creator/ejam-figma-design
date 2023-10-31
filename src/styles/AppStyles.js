@@ -15,10 +15,6 @@ export const AppStyles = styled.div`
     gap: 20px;
   }
 
-  @media ${devices.smallMobiles} {
-    display: none;
-  }
-
   @media ${devices.smallScreens} {
     display: none;
   }
