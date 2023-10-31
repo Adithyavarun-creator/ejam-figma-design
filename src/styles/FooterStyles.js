@@ -82,10 +82,6 @@ export const FooterStyles = styled.footer`
     }
   }
 
-  @media ${devices.smallMobiles} {
-    display: none;
-  }
-
   @media ${devices.smallScreens} {
     display: none;
   }

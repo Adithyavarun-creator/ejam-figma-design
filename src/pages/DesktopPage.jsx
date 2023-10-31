@@ -5,7 +5,7 @@ import { AppStyles } from "../styles/AppStyles";
 import Footer from "../components/Footer";
 import DesktopViewPage from "../components/DesktopView";
 
-const Main = () => {
+const DesktopPage = () => {
   return (
     <>
       <TopBar />
@@ -18,4 +18,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default DesktopPage;

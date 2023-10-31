@@ -6,16 +6,15 @@ import BodyPage from "./components/MobileView";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
-import Main from "./pages/Main";
+import DesktopPage from "./pages/DesktopPage";
 import MobilePage from "./pages/MobilePage";
-import MobileViewPage from "./components/MobileView";
 
 const App = () => {
   return (
     <>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/desktop-view" element={<Main />} />
+        <Route path="/desktop-view" element={<DesktopPage />} />
         <Route path="/mobile-view" element={<MobilePage />} />
       </Routes>
     </>

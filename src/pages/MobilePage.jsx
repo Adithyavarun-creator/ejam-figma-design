@@ -9,7 +9,10 @@ import { MobilePageStyles } from "../styles/MobilePageStyles";
 const Main = () => {
   return (
     <>
+      <TopBar />
+      <Header />
       <MobileViewPage />
+      <Footer />
     </>
   );
 };
